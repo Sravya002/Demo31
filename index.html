@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws & Tails - Pet Store</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #fefcf9;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff914d;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url("https://images.unsplash.com/photo-1558788353-f76d92427f16?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80") no-repeat center center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0;
+      font-size: 1.3rem;
+      color: #ff914d;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff914d;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🐾 Paws & Tails Pet Store</h1>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Your Pet’s Happiness is Our Priority 🐶🐱</h2>
+  </section>
+
+  <!-- Shop Section -->
+  <section class="section" id="shop">
+    <h2>Our Best Sellers</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=800&q=80" alt="Dog Food">
+        <h3>Healthy Dog Food</h3>
+        <p>Nutritious meals for your furry friends.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1619983081593-ecf3d3b18d74?auto=format&fit=crop&w=800&q=80" alt="Cat Toy">
+        <h3>Cat Toys</h3>
+        <p>Keep your cat active and playful.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1628803051396-023c2ac1739e?auto=format&fit=crop&w=800&q=80" alt="Pet Bed">
+        <h3>Cozy Pet Beds</h3>
+        <p>Soft and comfortable sleeping spots.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>At Paws & Tails, we care deeply about pets. We provide the best products, from healthy food to cozy beds, ensuring your furry family members stay happy and loved.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@pawsandtails.com | Phone: +91 98765 43210</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Paws & Tails Pet Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
